@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, initaila-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="clockcss.css"></link>
+ </head>
+ <body onload="time()">
+ <div class="main-wrap">
+  <div class="container">
+	<div class="analog clock">
+		<div class=" numbers tweleve-six">
+			<span class="tweleve">12</span>
+			<span class="six">6</span>
+		</div>
+		<div class="numbers one-seven">
+			<span class="one">1</span>
+			<span class="seven">7</span>
+		</div>
+		<div class="numbers two-eight">
+			<span class="two">2</span>
+			<span class="eight">8</span>
+			</div>
+		<div class="numbers three-nine">
+			<span class="three">3</span>
+			<span class="nine">9</span>
+		</div>
+		<div class="numbers four-ten">
+			<span class="four">4</span>
+			<span class="ten">10</span>
+		</div>
+		<div class="numbers five-eleven">
+			<span class="five">5</span>
+			<span class="eleven">11</span>
+		</div>
+		<div class="needles">
+		<div class="needles-bubble"></div>
+			<div class="hour-needle">
+				<!-- <div class="hrs twelve">
+					<div class="hr hr-twelve" value="12"></div>
+					<div class="hr hr-six" value="6"></div>
+				</div>
+				<div class="hrs one">
+					<div class="hr hr-one" value="1"></div>
+					<div class="hr hr-seven" value="7"></div>
+				</div>
+				<div class="hrs two">
+					<div class="hr hr-two" value="2"></div>
+					<div class="hr hr-eight" value="8"></div>
+				</div>
+				<div class="hrs three">
+					<div class="hr hr-three" value="3"></div>
+					<div class="hr hr-nine" value="9"></div>
+				</div>
+				<div class="hrs four">
+					<div class="hr hr-four" value="4"></div>
+					<div class="hr hr-ten" value="10"></div>
+				</div>
+				<div class="hrs five">
+					<div class="hr hr-five" value="5"></div>
+					<div class="hr hr-eleven" value="11"></div>
+				</div> -->
+				<div class="cut"></div>
+			</div>
+			<div class="minuite-needle">
+				<div class="cut"></div>
+			</div>
+			<div class="second-needle">
+				<div class="cut"></div>
+			</div>
+		</div>
+	</div>
+	<div class="digital clock">
+		<div class="digital-container">
+			<div class="digital-inner-container">
+				<div class="time hours"><span id="hrs" >00</span><span style="margin:1px;width:2px;">:</span></div>
+				<div class="time minuits"><span id="mins" >00</span><span style="margin:1px;width:2px;">:</span></div>
+				<div class="time seconds"><span id="sec" >00</span></div>
+				<div class="time specification"><span id="specification">AM</span></div>
+			</div>
+		</div>
+		<div class="name">Satya</div>
+  </div>
+  </div>
+  <script src="clockjs.js"></script>
+  </body>
+</html>
